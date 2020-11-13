@@ -1,0 +1,1 @@
+The goal of this project is to mimic a specific website using HTML and CSS.
