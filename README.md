@@ -1,1 +1,1 @@
-The goal of this project is to mimic a specific website using HTML and CSS.
+The goal of this project is to mimic Google using HTML and CSS.
