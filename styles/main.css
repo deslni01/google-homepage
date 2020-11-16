@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+
+a {
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+
+#navleft {
+    float: left;
+    margin: 24px 0px 0 25px;
+}
+
+#navleft a {
+    padding: 0 11px 0 0;
+}
+
+#navright {
+    float: right;
+    margin: 17px 30px 0 0px;
+}
+
+#navright a {
+    padding: 0 0 0 12px;
+}
+
+#navright button {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    background-color: #4387fd;
+    color: white;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    outline: none;
+    line-height: 28px;
+    padding: 0 12px;
+    width: 70px;
+    font-weight: bold;
+    margin-left: 14px;
+}
+
+/* Logo, Search, Buttons */
+
+#middle {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#logo {
+    position: relative;
+    left: 70px;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchbarcontainer input {
+    width: 575px;
+    height: 42px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-image: url('searchicon.png');
+    background: #fff;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+#searchbarcontainer input:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#buttons {
+    margin: 28px;
+}
+
+#buttons button {
+    margin: 0 8px 0 0;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 27px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 37px;
+}
+
+#buttons button:hover {
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+
+#footer {
+    border: 1px solid rgb(192, 192, 192);
+    background-color: #f2f2f2;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer a {
+    padding: 10px;
+}
+
+.footerleft {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.footerright {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
